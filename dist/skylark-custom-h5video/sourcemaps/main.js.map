@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["define","Player"],"mappings":";;;;;;;AAAAA,QACC,YACC,SAASC,GACV,OAAOA","file":"../main.js","sourcesContent":["define([\r\n\t\"./player\"\r\n],function(Player){\r\n\treturn Player;\r\n});"]}

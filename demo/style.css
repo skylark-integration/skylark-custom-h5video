@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #Custom HTML5 Video Player
+   ========================================================================== */
+
+:root {
+  --youtube-red: #FE0900;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
