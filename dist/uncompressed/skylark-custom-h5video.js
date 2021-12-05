@@ -138,7 +138,7 @@ define('skylark-custom-h5video/player',[
       this._video = $el.find(selectors.video)[0];
       this._videoControls = $el.find(selectors.videoControls)[0];
       this._playButton = $el.find(selectors.playButton)[0];
-      this._playbackIcons = $el.find(selectors.playbackIcons)[0];
+      this._playbackIcons = $el.find(selectors.playbackIcons);
       this._timeElapsed = $el.find(selectors.timeElapsed)[0];
       this._duration = $el.find(selectors.duration)[0];
       this._progressBar = $el.find(selectors.progressBar)[0];
@@ -446,12 +446,12 @@ define('skylark-custom-h5video/player',[
         return;
       }
 
-      styler.addClass(this._video,'hide');
+      styler.addClass(this._videoControls,'hide');
     },
 
     // showControls displays the video controls
     showControls : function () {
-      styler.removeClass(this._video,'hide');
+      styler.removeClass(this._videoControls,'hide');
     },
 
     // keyboardShortcuts executes the relevant functions for
